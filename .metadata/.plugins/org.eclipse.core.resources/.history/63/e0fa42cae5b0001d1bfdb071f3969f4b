@@ -1,0 +1,19 @@
+package com.example.demo.controller;
+
+import java.util.List;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+
+//import com.example.demo.model.pojoclass;
+
+@Controller
+
+public class controller {
+	@GetMapping("/")
+public String info(){
+//	return Arrays.asList(new pojoclass(1,"jo","IT"),new pojoclass(2,"ki","IT"));
+		return "NewFile1.jsp";
+}
+}

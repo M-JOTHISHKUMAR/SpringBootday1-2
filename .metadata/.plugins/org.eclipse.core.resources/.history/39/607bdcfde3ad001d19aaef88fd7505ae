@@ -1,0 +1,9 @@
+package com.example.demo;
+@RestController
+public class ClassController {
+	@GetMapping("/Hello")
+	public int Hello() {
+		return 500;
+	}
+
+}
